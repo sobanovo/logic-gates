@@ -1,4 +1,4 @@
-package com.cb.counters;
+package com.cb.logic_gates.counters;
 
 
 import org.junit.jupiter.api.BeforeAll;
@@ -44,6 +44,6 @@ public class BinaryCounterTest {
 
     @Test
     void binaryCounterInitialStateIsZero() {
-        assertEquals(counter.getBinaryCount(), Counter.BINARY_ZERO);
+        assertEquals(Counter.BINARY_ZERO, counter.getBinaryCount());
     }
 }

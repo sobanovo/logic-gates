@@ -1,4 +1,4 @@
-package com.cb.gates;
+package com.cb.logic_gates.gates;
 
 /**
  * The NandGate class implements the LogicGate interface and provides

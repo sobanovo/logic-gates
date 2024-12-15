@@ -1,4 +1,4 @@
-package com.cb.latches;
+package com.cb.logic_gates.latches;
 
 /**
  * The DTypeFlipFlop class implements the Latch interface and provides

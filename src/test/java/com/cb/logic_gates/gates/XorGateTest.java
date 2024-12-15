@@ -1,4 +1,4 @@
-package com.cb.gates;
+package com.cb.logic_gates.gates;
 
 
 import org.junit.jupiter.params.ParameterizedTest;
@@ -6,18 +6,18 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class OrGateTest {
+public class XorGateTest {
 
     @ParameterizedTest
     @CsvSource({
             "false,false,false",
             "false,true,true",
             "true,false,true",
-            "true,true,true"
+            "true,true,false"
     })
-    void orGateComputesCorrectly(boolean inputA, boolean inputB, boolean expectedOutput) {
-        OrGate orGate = new OrGate();
-        boolean output = orGate.compute(inputA, inputB);
+    void xorGateComputesCorrectly(boolean inputA, boolean inputB, boolean expectedOutput) {
+        XorGate xorGate = new XorGate();
+        boolean output = xorGate.compute(inputA, inputB);
         assertEquals(expectedOutput, output);
     }
 }

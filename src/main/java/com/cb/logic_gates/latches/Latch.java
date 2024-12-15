@@ -1,4 +1,4 @@
-package com.cb.latches;
+package com.cb.logic_gates.latches;
 
 /**
  * The LogicGate interface provides a method to compute the output

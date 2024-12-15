@@ -1,4 +1,4 @@
-package com.cb.counters;
+package com.cb.logic_gates.counters;
 
 /**
  * The BinaryCounterNBit class implements the Counter interface for an N-bit binary counter.

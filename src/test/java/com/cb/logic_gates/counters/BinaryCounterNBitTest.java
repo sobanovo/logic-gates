@@ -1,4 +1,4 @@
-package com.cb.counters;
+package com.cb.logic_gates.counters;
 
 
 import org.junit.jupiter.api.BeforeAll;

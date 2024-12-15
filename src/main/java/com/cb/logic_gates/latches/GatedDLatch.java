@@ -1,6 +1,6 @@
-package com.cb.latches;
+package com.cb.logic_gates.latches;
 
-import com.cb.gates.NandGate;
+import com.cb.logic_gates.gates.NandGate;
 
 /**
  * The GatedDLatch class implements the Latch interface and provides

@@ -1,6 +1,6 @@
-package com.cb.counters;
+package com.cb.logic_gates.counters;
 
-import com.cb.latches.DTypeFlipFlop;
+import com.cb.logic_gates.latches.DTypeFlipFlop;
 
 /**
  * The BinaryCounter class implements the Counter interface using a D-type flip-flop.

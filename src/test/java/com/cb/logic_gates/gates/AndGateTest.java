@@ -1,4 +1,4 @@
-package com.cb.gates;
+package com.cb.logic_gates.gates;
 
 
 import org.junit.jupiter.params.ParameterizedTest;
@@ -6,18 +6,18 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class NorGateTest {
+public class AndGateTest {
 
     @ParameterizedTest
     @CsvSource({
-            "false,false,true",
+            "false,false,false",
             "false,true,false",
             "true,false,false",
-            "true,true,false"
+            "true,true,true"
     })
-    void norGateComputesCorrectly(boolean inputA, boolean inputB, boolean expectedOutput) {
-        NorGate norGate = new NorGate();
-        boolean output = norGate.compute(inputA, inputB);
+    void andGateComputesCorrectly(boolean inputA, boolean inputB, boolean expectedOutput) {
+        AndGate andGate = new AndGate();
+        boolean output = andGate.compute(inputA, inputB);
         assertEquals(expectedOutput, output);
     }
 }

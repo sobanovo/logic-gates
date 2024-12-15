@@ -1,4 +1,4 @@
-package com.cb.counters;
+package com.cb.logic_gates.counters;
 
 /**
  * The Counter interface provides methods to control and query the state of a counter.

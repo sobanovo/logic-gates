@@ -1,4 +1,4 @@
-package com.cb.latches;
+package com.cb.logic_gates.latches;
 
 
 import org.junit.jupiter.api.BeforeAll;
